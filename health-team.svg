@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 370">
+ <defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2" fill="#fff" opacity=".5"/></pattern></defs>
+ <ellipse cx="266" cy="331" rx="219" ry="22" fill="#c9e6d9"/>
+ <path d="M81 271C-2 190 66 68 163 89 219-3 359 3 389 94c130-14 153 150 61 193Z" fill="#d9f3ed"/>
+ <path d="M81 271C-2 190 66 68 163 89 219-3 359 3 389 94c130-14 153 150 61 193Z" fill="url(#dots)"/>
+ <g fill="#fffef8" stroke="#b9dbce" stroke-width="2"><path d="M91 17h265a20 20 0 0 1 20 20v21a20 20 0 0 1-20 20h-82l-19 19-8-19H91a20 20 0 0 1-20-20V37a20 20 0 0 1 20-20Z"/></g>
+ <text x="223" y="55" text-anchor="middle" font-family="Malgun Gothic, sans-serif" font-weight="700" font-size="19" fill="#316658">우리 함께 건강을 지켜요!</text>
+ <g stroke="#526b66" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 토끼 탐험대원 -->
+  <path d="M98 169C69 82 87 62 104 84l29 71m11 5c-9-84 17-110 28-72l-7 80" fill="#fffaf2"/>
+  <path d="m99 109 16 47m42-49-3 49" stroke="#efb4bb" stroke-width="10"/>
+  <path d="m102 282-8 38c-1 13 33 13 35 2l9-29m17-3 9 32c3 12 34 10 32-2l-8-38" fill="#fffaf2"/>
+  <path d="M97 218c-11 24-16 45-6 71 27 14 76 17 105-1 0-31-8-54-23-73Z" fill="#8bcbb8"/>
+  <path d="M121 223v29h39v-28" fill="#ffedaa"/>
+  <ellipse cx="138" cy="185" rx="63" ry="51" fill="#fffaf2"/>
+  <ellipse cx="108" cy="195" rx="12" ry="7" fill="#f5bdc3" stroke="none"/>
+  <ellipse cx="168" cy="195" rx="12" ry="7" fill="#f5bdc3" stroke="none"/>
+  <path d="M115 179v6m43-6v6" stroke-width="5"/>
+  <path d="m133 191 5 4 5-4m-5 4v5m-9-1q9 10 18 0" fill="none"/>
+  <path d="M93 237q-22 3-25 23c-1 15 18 17 28 7M179 241l29-24" stroke="#fffaf2" stroke-width="21" fill="none"/>
+  <path d="m197 228 22-25" stroke="#526b66" stroke-width="10"/>
+  <circle cx="235" cy="185" r="29" fill="#e7f9fd" fill-opacity=".8" stroke="#5f9cb4" stroke-width="8"/>
+  <path d="M223 175q5-8 14-7" stroke="white" stroke-width="5"/>
+  <!-- 곰 탐험대원 -->
+  <path d="m327 281-4 38c-1 15 33 15 34 0l4-28m24-1 6 30c2 13 34 10 32-3l-8-35" fill="#d5a47d"/>
+  <path d="M325 224c-16 17-19 50-11 68 29 13 75 13 109-1 0-32-5-55-24-70Z" fill="#f6cf7b"/>
+  <circle cx="326" cy="142" r="24" fill="#d5a47d"/><circle cx="404" cy="142" r="24" fill="#d5a47d"/>
+  <circle cx="326" cy="142" r="11" fill="#f0cba7" stroke="none"/><circle cx="404" cy="142" r="11" fill="#f0cba7" stroke="none"/>
+  <ellipse cx="365" cy="186" rx="60" ry="52" fill="#dbb28e"/>
+  <ellipse cx="365" cy="201" rx="27" ry="19" fill="#fff0d8" stroke="none"/>
+  <ellipse cx="332" cy="197" rx="11" ry="7" fill="#efa8a0" stroke="none"/><ellipse cx="399" cy="197" rx="11" ry="7" fill="#efa8a0" stroke="none"/>
+  <path d="M342 181v5m45-5v5" stroke-width="5"/><path d="m360 193 5 4 5-4m-5 4v5m-9 0q9 9 18 0"/>
+  <path d="M344 147v-18h42v18" fill="#fefcf3"/><path d="M359 135h12m-6-6v12" stroke="#60a68e" stroke-width="4"/>
+  <path d="M402 244q21 10 23 27" stroke="#dbb28e" stroke-width="22"/>
+  <path d="m309 239 36 13v28c0 24-36 43-36 43s-36-19-36-43v-28Z" fill="#74b9a4"/>
+  <path d="m294 276 11 11 21-24" fill="none" stroke="#fff9dc" stroke-width="7"/>
+  <path d="M326 252q13 2 14 16" stroke="#dbb28e" stroke-width="17"/>
+ </g>
+ <!-- 반짝이는 별 친구 -->
+ <g transform="translate(437 93) rotate(12)"><path d="m0-30 12 19 23 5-16 17 1 24L0 24l-21 11 2-24-16-17 23-5Z" fill="#ffdc83" stroke="#b49150" stroke-width="2.5" stroke-linejoin="round"/><path d="M-9 3v3M9 3v3m-14 8q5 5 10 0" fill="none" stroke="#705e48" stroke-width="3" stroke-linecap="round"/><ellipse cx="-14" cy="11" rx="5" ry="3" fill="#f0a99b"/><ellipse cx="14" cy="11" rx="5" ry="3" fill="#f0a99b"/></g>
+ <g fill="#edb6c9"><path d="M44 196c-14-17-26 0 0 15 26-15 14-32 0-15Z"/><path d="M281 105c-10-13-20 0 0 12 20-12 10-25 0-12Z"/></g>
+ <g fill="#a7a4da"><path d="m52 77 4 11 11 4-11 4-4 11-4-11-11-4 11-4ZM465 247l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z"/></g>
+ <g fill="#efcf83"><circle cx="224" cy="116" r="5"/><circle cx="478" cy="196" r="5"/><circle cx="66" cy="294" r="6"/><circle cx="263" cy="298" r="4"/></g>
+</svg>

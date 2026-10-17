@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#226653">
+  <meta name="description" content="초등학교 3학년 과학, 감염병 6가지를 탐구하고 퀴즈와 예방 실천으로 복습해요.">
+  <title>우리 반 건강 탐험대 · 감염병과 우리 생활</title>
+  <link rel="icon" href="./assets/badge.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./cute.css">
+  <script defer src="./data.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 바로 가기</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#explore"><img src="./assets/badge.svg" width="44" height="44" alt=""><span>우리 반 <strong>건강 탐험대</strong><small>과학으로 배우는 건강한 일상</small></span></a>
+      <div class="header-actions"><button id="font-toggle" class="quiet" aria-pressed="false">가+ <span>큰 글씨</span></button><button id="teacher-open" class="quiet">선생님 안내 ↗</button></div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><span class="eyebrow">3학년 2학기 과학 · 4단원</span><h1 id="hero-title">작은 습관으로<br><span>함께 지키는 건강!</span></h1><p>감염병은 어떻게 생길까요?<br>여섯 가지 감염병을 알아보고, 우리 반 건강을 지켜요.</p><a class="primary" href="#explore">탐험 시작하기 <span aria-hidden="true">→</span></a></div>
+      <img class="hero-art" src="./assets/health-team.svg" alt="돋보기를 든 토끼와 건강 방패를 든 곰, 별 친구가 함께 있는 건강 탐험대" width="520" height="370">
+      <div class="hero-label">2022 개정 교육과정 연계</div>
+    </section>
+    <nav class="main-nav" aria-label="학습 활동">
+      <a href="#explore" data-view="explore"><span aria-hidden="true">🔎</span> 감염병 탐구</a>
+      <a href="#compare" data-view="compare"><span aria-hidden="true">📖</span> 한눈에 비교</a>
+      <a href="#quiz" data-view="quiz"><span aria-hidden="true">⭐</span> 도전! 퀴즈</a>
+      <a href="#practice" data-view="practice"><span aria-hidden="true">🌱</span> 예방 실천</a>
+    </nav>
+    <div id="content" tabindex="-1"></div>
+    <aside class="kind-note"><span aria-hidden="true">♡</span><p><strong>아픈 친구에게 필요한 건 따뜻한 마음이에요.</strong><br>누구나 감염병에 걸릴 수 있어요. 친구를 탓하거나 놀리지 말고, 함께 예방해요.</p></aside>
+    <p id="storage-note" class="storage-note">학습 기록은 이 브라우저에만 저장돼요. 이름이나 건강 정보는 입력하지 않아요.</p>
+  </main>
+  <footer><span>우리 반 건강 탐험대</span><span>몸이 아프면 부모님이나 선생님께 알려요.</span><button id="sources-open">교육과정·자료 출처</button></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+  <dialog id="info-dialog" aria-labelledby="info-title"><div class="dialog-top"><h2 id="info-title"></h2><button class="icon-button" data-close="info-dialog" aria-label="안내 닫기">×</button></div><div id="info-content" class="info-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">학습 활동을 사용하려면 브라우저에서 자바스크립트를 켜 주세요.</p></noscript>
+</body>
+</html>
